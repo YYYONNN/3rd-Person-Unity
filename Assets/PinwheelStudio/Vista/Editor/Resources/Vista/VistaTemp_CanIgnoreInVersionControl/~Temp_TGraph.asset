@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd3d01eddcedb04c8e9bd76ec8c3819, type: 3}
+  m_Name: ~Temp_TGraph
+  m_EditorClassIdentifier: 
+  m_nodeData:
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.HydraulicErosionNode
+    jsonData: '{"m_groupId":"","m_id":"a7d9435d-a1c3-4fc0-94c8-c859b15ea161","m_visualState":{"m_position":{"x":193.00003051757813,"y":-268.0},"m_collapsed":false},"m_shouldSplitExecution":true,"m_isBypassed":false,"m_resolutionOverride":1,"m_resolutionMultiplier":1.0,"m_resolutionAbsolute":1024,"m_detailLevel":1.0,"m_iterationCount":1,"m_iterationPerFrame":1,"m_highQualityMode":true,"m_waterSourceAmount":0.5,"m_waterSourceMultiplier":1.0,"m_flowRate":1.0,"m_flowMultiplier":1.0,"m_sedimentCapacity":5.0,"m_sedimentCapacityMultiplier":1.0,"m_erosionRate":1.0,"m_erosionMultiplier":1.0,"m_depositionRate":1.0,"m_depositionMultiplier":1.0,"m_depositionSlopeFactor":1.0,"m_evaporationRate":0.10000000149011612,"m_evaporationMultiplier":1.0,"m_bedRockDepth":10.0,"m_sharpness":0.5,"m_heightScale":1.0,"m_detailHeightScale":1.0,"m_erosionBoost":1.0,"m_depositionBoost":1.0}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.HeightOutputNode
+    jsonData: '{"m_groupId":"","m_id":"f1a8fbc1-73e1-4b70-8e92-50d2d2df5982","m_visualState":{"m_position":{"x":452.26654052734377,"y":-329.6064147949219},"m_collapsed":false},"m_shouldSplitExecution":false,"m_isBypassed":false}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.RemapNode
+    jsonData: '{"m_groupId":"","m_id":"e1f7727a-3866-423f-9aad-f9f6b778b70f","m_visualState":{"m_position":{"x":451.8510437011719,"y":-109.31412506103516},"m_collapsed":false},"m_shouldSplitExecution":false,"m_isBypassed":false,"m_resolutionOverride":1,"m_resolutionMultiplier":1.0,"m_resolutionAbsolute":1024,"m_min":0.0,"m_max":1.0}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.WeightBlendNode
+    jsonData: '{"m_groupId":"","m_id":"168ed9e6-42d7-48eb-a40b-df76ba2e679a","m_visualState":{"m_position":{"x":633.18701171875,"y":-109.56464385986328},"m_collapsed":false},"m_shouldSplitExecution":false,"m_isBypassed":false,"m_resolutionOverride":1,"m_resolutionMultiplier":1.0,"m_resolutionAbsolute":1024,"m_inputSlots":[{"m_id":0,"m_type":0,"m_name":"Layer
+      0"},{"m_id":1,"m_type":0,"m_name":"Layer 1"}],"m_outputSlots":[{"m_id":100,"m_type":1,"m_name":"Layer
+      0"},{"m_id":101,"m_type":1,"m_name":"Layer 1"}],"m_layerCount":2}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.TextureOutputNode
+    jsonData: '{"m_groupId":"","m_id":"80cec20f-62c5-4f2a-8562-080ba5ba52dd","m_visualState":{"m_position":{"x":885.8569946289063,"y":-257.1272277832031},"m_collapsed":false},"m_shouldSplitExecution":false,"m_isBypassed":false,"m_resolutionOverride":1,"m_resolutionMultiplier":1.0,"m_resolutionAbsolute":1024,"m_order":0}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.TextureOutputNode
+    jsonData: '{"m_groupId":"","m_id":"02d0685c-2299-404d-a3f8-4b8787a6b554","m_visualState":{"m_position":{"x":885.8717651367188,"y":-47.70415115356445},"m_collapsed":false},"m_shouldSplitExecution":false,"m_isBypassed":false,"m_resolutionOverride":1,"m_resolutionMultiplier":1.0,"m_resolutionAbsolute":1024,"m_order":0}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.NoiseNode
+    jsonData: '{"m_groupId":"","m_id":"7bc89e14-fee2-4004-b8d4-ca5b2f576c19","m_visualState":{"m_position":{"x":-7.384998321533203,"y":-267.11749267578127},"m_collapsed":false},"m_shouldSplitExecution":false,"m_isBypassed":false,"m_resolutionOverride":1,"m_resolutionMultiplier":1.0,"m_resolutionAbsolute":1024,"m_offset":{"x":0.0,"y":0.0},"m_scale":80.9000015258789,"m_lacunarity":2.0,"m_persistence":0.32100000977516177,"m_layerCount":4,"m_mode":1,"m_seed":574,"m_warpMode":0,"m_warpAngleMin":-360.0,"m_warpAngleMax":360.0,"m_warpIntensity":1.0,"m_remapCurve":{"serializedVersion":"2","m_Curve":[{"serializedVersion":"3","time":0.0,"value":0.0,"inSlope":0.0,"outSlope":1.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0},{"serializedVersion":"3","time":1.0,"value":1.0,"inSlope":1.0,"outSlope":0.0,"tangentMode":0,"weightedMode":0,"inWeight":0.0,"outWeight":0.0}],"m_PreInfinity":2,"m_PostInfinity":2,"m_RotationOrder":4}}'
+  m_edgeData:
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.Edge
+    jsonData: '{"m_id":"f7d54c20-e1e7-4c09-983a-d370a951ba2b","m_outputSlot":{"m_nodeId":"a7d9435d-a1c3-4fc0-94c8-c859b15ea161","m_slotId":100},"m_inputSlot":{"m_nodeId":"f1a8fbc1-73e1-4b70-8e92-50d2d2df5982","m_slotId":0}}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.Edge
+    jsonData: '{"m_id":"8fe803cf-4744-4d54-8aa8-df7409d8fbce","m_outputSlot":{"m_nodeId":"a7d9435d-a1c3-4fc0-94c8-c859b15ea161","m_slotId":101},"m_inputSlot":{"m_nodeId":"e1f7727a-3866-423f-9aad-f9f6b778b70f","m_slotId":0}}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.Edge
+    jsonData: '{"m_id":"efa1e144-b006-442d-9353-863753a029cc","m_outputSlot":{"m_nodeId":"e1f7727a-3866-423f-9aad-f9f6b778b70f","m_slotId":100},"m_inputSlot":{"m_nodeId":"168ed9e6-42d7-48eb-a40b-df76ba2e679a","m_slotId":1}}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.Edge
+    jsonData: '{"m_id":"307d8595-f92b-438c-8f8e-c69f080b962e","m_outputSlot":{"m_nodeId":"168ed9e6-42d7-48eb-a40b-df76ba2e679a","m_slotId":100},"m_inputSlot":{"m_nodeId":"80cec20f-62c5-4f2a-8562-080ba5ba52dd","m_slotId":0}}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.Edge
+    jsonData: '{"m_id":"74374b17-f965-4d45-9d9f-8df2d2270da7","m_outputSlot":{"m_nodeId":"168ed9e6-42d7-48eb-a40b-df76ba2e679a","m_slotId":101},"m_inputSlot":{"m_nodeId":"02d0685c-2299-404d-a3f8-4b8787a6b554","m_slotId":0}}'
+  - typeInfo:
+      fullName: Pinwheel.Vista.Graph.Edge
+    jsonData: '{"m_id":"635343e6-a467-4e96-865e-3deb29a70d48","m_outputSlot":{"m_nodeId":"7bc89e14-fee2-4004-b8d4-ca5b2f576c19","m_slotId":100},"m_inputSlot":{"m_nodeId":"a7d9435d-a1c3-4fc0-94c8-c859b15ea161","m_slotId":0}}'
+  m_groupData: []
+  m_stickyNoteData: []
+  m_stickyImageData: []
+  m_objectReferences:
+  - m_key: 80cec20f-62c5-4f2a-8562-080ba5ba52dd.m_terrainLayer
+    m_target: {fileID: 8574412962073106934, guid: fb44ba02d84bb4145a5bf536b236a0db, type: 2}
+  - m_key: 02d0685c-2299-404d-a3f8-4b8787a6b554.m_terrainLayer
+    m_target: {fileID: 8574412962073106934, guid: d25c8def728088547ae6a1024dd9b481, type: 2}
+  m_exposedProperties: []
+  m_debugConfigs:
+    m_resolution: 1024
+    m_worldBounds:
+      serializedVersion: 2
+      x: -570.7107
+      y: -570.7107
+      width: 1141.4214
+      height: 1141.4214
+    m_terrainHeight: 500
+    m_seed: 0
+    m_shouldOutputTempHeight: 0
+  m_allowSplitExecution: 1
